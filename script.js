@@ -20,17 +20,34 @@ $(function(){
     function loadData() {
         $.getJSON('data/hsfitness.json')
             .success(function(data){
-                console.log(data);
                 times = data;
+                console.log("times is" + times);
             })
             .fail(function(){
-                $('#activity').html('Sorry! The information could not be loaded at the moment');
+                $('#event').html('Sorry! The information could not be loaded at the moment');
             })
     }
 
     loadData();
     
-    $('#content').on('click', '#activity a', function(e){
-       e.preventDefault(); // Prevent loading page 
+    $('#content').on('click', '#event a', function(e){
+        e.preventDefault(); // Prevent loading page
+        var activity = this.id;
+        console.log(activity + "clicked");
+
+        var newContent = "";
+        for(var i=0; i<times[activity].length; i++) {
+            newContent += '<li><a href="descriptions.html#';
+            newContent += times[activity][i].type.replace(/ /g, '-') + '">';
+            newContent += times[activity][i].type + '</a></li>'
+        }
+
+        $('#sessions').html('<ul>' + newContent + '</ul>');
+
+        $('#event a.current').removeClass('current');
+        $(this).addClass('current');
+
+        $('#details').text('');  //Clear third column
+
     });
  });

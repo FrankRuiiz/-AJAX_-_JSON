@@ -1,57 +1,38 @@
 {
   "cardio": [
     {
-      "type": "HIIT",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo porttitor magna quis maximus. Etiam laoreet purus eget augue vehicula, eget tincidunt quam tristique. Sed vestibulum ultrices placerat. Proin commodo urna leo, ac finibus ante pulvinar eu. Aliquam ac mi nec nibh semper accumsan at et turpis. Vestibulum in egestas est. Nam rutrum, erat sed hendrerit fermentum, est neque rhoncus tellus, id sodales elit metus sit amet lacus."
+      "type": "hiit"
     },
     {
-      "type": "Cycling",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo porttitor magna quis maximus. Etiam laoreet purus eget augue vehicula, eget tincidunt quam tristique. Sed vestibulum ultrices placerat. Proin commodo urna leo, ac finibus ante pulvinar eu. Aliquam ac mi nec nibh semper accumsan at et turpis. Vestibulum in egestas est. Nam rutrum, erat sed hendrerit fermentum, est neque rhoncus tellus, id sodales elit metus sit amet lacus."
-
+      "type": "cycling"
     },
     {
-      "type": "Swimming",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo porttitor magna quis maximus. Etiam laoreet purus eget augue vehicula, eget tincidunt quam tristique. Sed vestibulum ultrices placerat. Proin commodo urna leo, ac finibus ante pulvinar eu. Aliquam ac mi nec nibh semper accumsan at et turpis. Vestibulum in egestas est. Nam rutrum, erat sed hendrerit fermentum, est neque rhoncus tellus, id sodales elit metus sit amet lacus."
-
+      "type": "swimming"
     }
   ],
   "weights": [
     {
-      "type": "Chest",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo porttitor magna quis maximus. Etiam laoreet purus eget augue vehicula, eget tincidunt quam tristique. Sed vestibulum ultrices placerat. Proin commodo urna leo, ac finibus ante pulvinar eu. Aliquam ac mi nec nibh semper accumsan at et turpis. Vestibulum in egestas est. Nam rutrum, erat sed hendrerit fermentum, est neque rhoncus tellus, id sodales elit metus sit amet lacus."
-
+      "type": "chest"
     },
     {
-      "type": "Back",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo porttitor magna quis maximus. Etiam laoreet purus eget augue vehicula, eget tincidunt quam tristique. Sed vestibulum ultrices placerat. Proin commodo urna leo, ac finibus ante pulvinar eu. Aliquam ac mi nec nibh semper accumsan at et turpis. Vestibulum in egestas est. Nam rutrum, erat sed hendrerit fermentum, est neque rhoncus tellus, id sodales elit metus sit amet lacus."
-
+      "type": "back"
     },
     {
-      "type": "Arms",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo porttitor magna quis maximus. Etiam laoreet purus eget augue vehicula, eget tincidunt quam tristique. Sed vestibulum ultrices placerat. Proin commodo urna leo, ac finibus ante pulvinar eu. Aliquam ac mi nec nibh semper accumsan at et turpis. Vestibulum in egestas est. Nam rutrum, erat sed hendrerit fermentum, est neque rhoncus tellus, id sodales elit metus sit amet lacus."
-
+      "type": "arms"
     },
     {
-      "type": "Legs",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo porttitor magna quis maximus. Etiam laoreet purus eget augue vehicula, eget tincidunt quam tristique. Sed vestibulum ultrices placerat. Proin commodo urna leo, ac finibus ante pulvinar eu. Aliquam ac mi nec nibh semper accumsan at et turpis. Vestibulum in egestas est. Nam rutrum, erat sed hendrerit fermentum, est neque rhoncus tellus, id sodales elit metus sit amet lacus."
-
+      "type": "legs"
     }
   ],
   "recovery": [
     {
-      "type": "massage",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo porttitor magna quis maximus. Etiam laoreet purus eget augue vehicula, eget tincidunt quam tristique. Sed vestibulum ultrices placerat. Proin commodo urna leo, ac finibus ante pulvinar eu. Aliquam ac mi nec nibh semper accumsan at et turpis. Vestibulum in egestas est. Nam rutrum, erat sed hendrerit fermentum, est neque rhoncus tellus, id sodales elit metus sit amet lacus."
-
+      "type": "massage"
     },
     {
-      "type": "cryo-therapy",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo porttitor magna quis maximus. Etiam laoreet purus eget augue vehicula, eget tincidunt quam tristique. Sed vestibulum ultrices placerat. Proin commodo urna leo, ac finibus ante pulvinar eu. Aliquam ac mi nec nibh semper accumsan at et turpis. Vestibulum in egestas est. Nam rutrum, erat sed hendrerit fermentum, est neque rhoncus tellus, id sodales elit metus sit amet lacus."
-
+      "type": "cryo-therapy"
     },
     {
-      "type": "sleep",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo porttitor magna quis maximus. Etiam laoreet purus eget augue vehicula, eget tincidunt quam tristique. Sed vestibulum ultrices placerat. Proin commodo urna leo, ac finibus ante pulvinar eu. Aliquam ac mi nec nibh semper accumsan at et turpis. Vestibulum in egestas est. Nam rutrum, erat sed hendrerit fermentum, est neque rhoncus tellus, id sodales elit metus sit amet lacus."
-
+      "type": "sleep"
     }
   ]
 }

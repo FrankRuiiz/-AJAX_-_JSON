@@ -29,7 +29,9 @@ $(function(){
     }
 
     loadData();
-    
+
+
+    // Click on event to load an activity
     $('#content').on('click', '#event a', function(e){
         e.preventDefault(); // Prevent loading page
         var activity = this.id;
@@ -48,6 +50,17 @@ $(function(){
         $(this).addClass('current');
 
         $('#details').text('');  //Clear third column
+    });
 
+    // Click on session to load a description
+    $('#content').on('click', '#sessions li a', function(e) {
+        e.preventDefault(e);
+        var fragment = this.href;  //holds link to the session, collected from the href attr of the link that was clicked
+
+        fragment = fragment.replace('#', ' #');
+        $('#details').load(fragment);
+
+        $('#sessions a.current').removeClass('current');
+        $(this).addClass('current');
     });
  });

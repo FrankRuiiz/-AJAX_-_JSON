@@ -1,11 +1,84 @@
+/*GLOBAL*/
+
+body {
+    background-color: #000;
+    color: #EEE;
+}
+
+/*HEADING*/
+
+header {
+    position: relative;
+    top: 10px;
+    max-height: 20vh;
+}
+
+header div {
+    display: inline-block;
+    max-width: 300px;
+}
+
+header h1 {
+    padding: 10px;
+    color: yellow;
+    font-size: 3em;
+}
+
 header #logo {
-    max-height: 5em;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100px;
 }
 
 #event a img {
-    height: 160px;
-    width: 160px;
+    height: 140px;
+    width: 140px;
     margin-top: 20px;
     margin-right: 10px;
     border-radius: 50%;
 }
+
+/*CONTENT*/
+
+#content #event a {
+    color: yellow;
+    font-size: 1.75em;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#content #event a:hover {
+    color: lightgoldenrodyellow;
+}
+
+#sessions, #details {
+    padding-top: 4.5em;
+}
+
+#sessions ul {
+    padding: 0 0 0 4em;
+    list-style-type: none;
+}
+
+#sessions ul li {
+    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+
+#sessions li a {
+    list-style: none;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+#sessions li a:hover {
+    color: skyblue;
+}
+
+#details h3 {
+    color: yellow;
+    font-size: 3em;
+}
+

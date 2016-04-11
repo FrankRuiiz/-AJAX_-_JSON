@@ -11,5 +11,5 @@ This project was to solidify my knowledge of jQuery, AJAX and JSON for loading l
 * HTML, CSS (Bootstrap)
 * JavaScript
 
-![alt text](img/homer_fitness.PNG "page screenshot")
+![alt text](img/homer_fitness.PNG "page screen shot")
 

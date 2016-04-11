@@ -5,7 +5,7 @@
 
 $(function () {
 
-    var times;
+    var times; //Global variable to hold data
 
     $.ajax({
         beforeSend: function (xhr) {
@@ -28,7 +28,7 @@ $(function () {
             })
     }
 
-    loadData();
+    loadData();  // initializes loadData function
     
     // Click on event to load an activity
     $('#content').on('click', '#event a', function (e) {
